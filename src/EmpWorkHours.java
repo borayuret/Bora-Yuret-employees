@@ -55,6 +55,18 @@ public class EmpWorkHours {
         Collections.sort(inputList, Comparator.comparing(Input::getEmpId));
 
 
+        /*
+        Together List:
+
+
+        Emp1ID, Emp2ID, ProjectID, Days
+
+        Sample data:
+        143, 145, 10, 314
+        
+        */
+
+
 
         Input input1, input2 = null;
 
